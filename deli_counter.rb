@@ -16,7 +16,7 @@ end
 
 #method to add new customer to deli line
 def take_a_number(katz_deli, number)
-  puts "Welcome, #{person}. You are number #{number}."
+  puts "Welcome, you are number #{number}."
 end
 
 #method to notify who is now being served and remove them from the line
