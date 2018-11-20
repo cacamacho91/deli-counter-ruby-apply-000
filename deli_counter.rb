@@ -1,4 +1,5 @@
 katz_deli = []
+number = 0;
 
 #method to print current status of deli line
 def line(katz_deli)
