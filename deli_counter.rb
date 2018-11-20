@@ -19,6 +19,7 @@ end
 def take_a_number(katz_deli, number)
   puts "Welcome, you are number #{number}."
   number += 1
+  katz_deli.push(number)
 end
 
 #method to notify who is now being served and remove them from the line
