@@ -1,6 +1,6 @@
 katz_deli = []
 
-#mehtod to print current status of deli line
+#method to print current status of deli line
 def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
