@@ -1,5 +1,5 @@
 katz_deli = []
-number = 1
+number = 0
 
 #method to print current status of deli line
 def line(katz_deli)
@@ -17,8 +17,8 @@ end
 
 #method to add new customer to deli line
 def take_a_number(katz_deli, number)
-  puts "Welcome, you are number #{number}."
   number += 1
+  puts "Welcome, you are number #{number}."
   katz_deli.push(number)
 end
 
