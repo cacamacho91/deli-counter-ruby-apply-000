@@ -15,9 +15,8 @@ def line(katz_deli)
 end
 
 #method to add new customer to deli line
-def take_a_number(katz_deli, person)
-  katz_deli << person
-  puts "Welcome, #{person}. You are number #{katz_deli.length} in line."
+def take_a_number(katz_deli, number)
+  puts "Welcome, #{person}. You are number #{number} in line."
 end
 
 #method to notify who is now being served and remove them from the line
